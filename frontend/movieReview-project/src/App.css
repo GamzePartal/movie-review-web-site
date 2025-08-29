@@ -1,0 +1,25 @@
+
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ekranın tamamı */
+}
+
+.navbar {
+  background-color: #ea3a3aff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
